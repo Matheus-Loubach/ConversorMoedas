@@ -49,7 +49,7 @@ export default class Conversor extends Component{
         <h2 className="">{this.props.moedaA} para {this.props.moedaB}</h2>
         {/*MoedaA_valor vai receber o valor digitado no input*/}
         <input className="texto" type="text" onChange={(event)=>{this.setState({moedaA_valor: event.target.value})}}/>
-        <input className="botao" type="button" value="Converter" onClick={this.converter}/> 
+        <input className="botao" type="button" value="Enviar" onClick={this.converter}/> 
         <h2>R$ {this.state.moedaB_valor}</h2>
       </section>
       </div>
