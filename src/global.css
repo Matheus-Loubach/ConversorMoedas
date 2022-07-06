@@ -1,0 +1,33 @@
+body{
+  background: url(Mercados.jpg)
+}
+
+.linha{
+  display: flex;
+  justify-content: space-around;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.app{
+  margin: auto;
+  max-width: 900px;
+}
+
+.nome{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nome a{
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}

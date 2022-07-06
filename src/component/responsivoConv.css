@@ -1,0 +1,57 @@
+
+/*PC*/
+@media only screen and (min-width: 1000px) {
+  .container_bloco{
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 black;
+    margin: 10px 5px 0 0;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    text-align: center;
+    }
+    .botao{
+      background-color: white;
+      width: 50%;
+      height: 100%;
+      margin-top: 2px;
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    .texto{
+      text-align: center;
+      border-radius: 10px;
+      padding: 5px;
+    }
+    
+ 
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 900px) {
+  .container_bloco{
+    padding: 20px;
+    max-width: 150px;
+    box-shadow: 0 4px 8px 0 black;
+    margin: 10px 5px 0 0;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    text-align: center;
+    }
+
+    .botao{
+      background-color: white;
+      width: 50%;
+      height: 100%;
+      margin-top: 2px;
+      padding: 5px;
+      border-radius: 10px;
+    }
+
+    
+    .texto{
+      text-align: center;
+      width: 90%;
+    }
+}
