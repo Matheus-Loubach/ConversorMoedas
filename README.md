@@ -1,6 +1,6 @@
-﻿# Um Simples conversor de moedas. Utilizando uma api para a busca dos dados
- 
-- Busca pelo preço da cotação
+# Conversor de moedas. 
+
+- Utilizando uma api para a busca dos preços
 - Api: https://www.currencyconverterapi.com/docs
  
 
