@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './conversor.css'
 import './responsivoConv.css'
-const KEY_API = 'd792252e6f7d4e2d3705';
+const KEY_API = '2cab043b7ddeb699f3c3';
 
 export default class Conversor extends Component{
 
